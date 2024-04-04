@@ -134,6 +134,152 @@ body {
   border-radius: 2em;
 }
 
+/*-------------- Main------------ */
+
+.easybank {
+  background-color: var(--light-grayish-blue);
+}
+
+.easybank__container {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--dark-blue);
+}
+
+.easybank__paragraph {
+  line-height: 1.5;
+  margin-top: 1em;
+  margin-bottom: 4em;
+  color: var(--grayish-blue);
+}
+
+.easybank__services {
+  display: grid;
+  gap: 3rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.easybank__icon {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.easybank__title {
+  margin: 1rem 0;
+  color: var(--dark-blue);
+  font-weight: 400;
+}
+
+.easybank__copy {
+  line-height: 1.5;
+  color: var(--grayish-blue);
+}
+
+/* --------------------section articles----------- */
+
+.articles {
+  background-color: var(--very-light-gray);
+}
+
+.articles__container {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.articles__content {
+  margin-top: 2em;
+  display: grid;
+  gap: 2em;
+}
+
+.articles__article {
+  --img-bg: url("../assets/images/image-currency.jpg");
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 0 0 3px rgb(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: left;
+}
+
+.articles__article:nth-of-type(2) {
+  --img-bg: url("../assets/images/image-restaurant.jpg");
+}
+
+.articles__article:nth-of-type(3) {
+  --img-bg: url("../assets/images/image-plane.jpg");
+}
+
+.articles__article:nth-of-type(4) {
+  --img-bg: url("../assets/images/image-confetti.jpg");
+}
+
+.articles__img {
+  width: 100%;
+  height: 250px;
+  background-image: var(--img-bg);
+  background-size: cover;
+  background-position: center;
+}
+
+.articles__text {
+  padding: 1.5em 2em;
+}
+
+.articles__authoe {
+  color: var(--grayish-blue);
+  font-size: 0.8rem;
+}
+
+.articles__title {
+  color: var(--dark-blue);
+  font-weight: 400;
+  margin: 0.7rem 0;
+}
+
+.articles__paragraph {
+  color: var(--grayish-blue);
+  line-height: 1.5;
+}
+
+/* ----------Footer--------- */
+
+.footer {
+  background-color: var(--dark-blue);
+  text-align: center;
+}
+
+.footer__container {
+  padding: 70px 0;
+}
+
+.footer__logo {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+  margin-bottom: 1.5em;
+}
+
+.footer__img {
+  display: block;
+}
+
+.footer__socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
 .cta--nav {
   display: none;
 }
