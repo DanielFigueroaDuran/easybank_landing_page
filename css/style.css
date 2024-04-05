@@ -371,5 +371,85 @@ body {
   .hero__background {
     width: 50%;
     height: 100%;
+    background-image: url("../assets/images/bg-intro-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  .hero__background::before {
+    left: unset;
+    right: 0;
+    height: 550px;
+    background-position: 85px -80px;
+  }
+
+  .hero__texts {
+    width: 40%;
+    padding-bottom: 0;
+    margin: 0 auto;
+    text-align: start;
+  }
+
+  .hero__title {
+    margin: 0;
+  }
+
+  .easybank__container {
+    text-align: start;
+  }
+
+  .easybank__paragraph {
+    width: 550px;
+  }
+
+  .easybank__services {
+    margin: 0;
+    max-width: unset;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+  }
+
+  .easybank__icon {
+    margin-left: unset;
+  }
+
+  .articles__container {
+    text-align: start;
+  }
+
+  .articles__content {
+    gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .articles__article {
+    max-width: unset;
+  }
+
+  .footer__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__nav {
+    margin-top: 0;
+    margin-left: 60px;
+    column-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__cta {
+    margin-left: auto;
+  }
+
+  .cta__footer {
+    margin: 0 0 1.5em;
+  }
+}
+
+@media (min-width: 1270px) {
+  .hero__main {
+    margin: 0 auto;
   }
 }
